@@ -78,7 +78,7 @@ Nota: Asegúrate de que tu imagen de entrada esté en formato BMP para un proces
 -------------------------------------  
 
 # AVX Képátméretező és Színinverter
-Ez a egyszerű C program beolvassa a BMP képet, átméretezi azt egy új dimenzióra (600x600), és invertálja a színeit. A méretezett és színinvertált kép új BMP fájlba kerül mentésre.
+Ez az egyszerű C program beolvassa a BMP képet, átméretezi azt egy új dimenzióra (600x600), és invertálja a színeit. A méretezett és színinvertált kép új BMP fájlba kerül mentésre.
 
 A program elkészítésének részleteiért nézd meg [ezt a cikket](https://peterabraham.com/article/resizing-images-and-inverting-pixels-using-avx-in-c-a-step-by-step-guide-part-1), amit írtam a témáról.
 
@@ -104,11 +104,11 @@ gcc image_processor.c -o image_processor -mavx2
 ## BMP kép részletei
 - Bemeneti kép: space_image.bmp
 - Kimeneti kép: space_new.bmp
-- Kezdeti kép kérete: 1200x1200
-- Átméretezett kép kérete: 600x600
+- Kezdeti kép mérete: 1200x1200
+- Átméretezett kép mérete: 600x600
 
 ## Megvalósítás részletei
-A program SIMD (Single Instruction, Multiple Data) AVX2 utasításokat használ hatékony képfeldolgozáshoz. Tartalmaz funkciókat a kép átméretezéséhez és a színek invertálásához.
+A program SIMD (Single Instruction, Multiple Data) AVX2 utasításokat használ a hatékony képfeldolgozáshoz. A kép átméretezéséhez és a színek invertálásához tartalmaz függvényeket.
 
 Nyugodtan módosítsd a bemeneti képet, a kimeneti fájl neveit, vagy igazítsd az dimenziókat a forráskódban az igényeidnek megfelelően.
 
