@@ -1,4 +1,4 @@
-## [EN](#avx-image-resizer-and-color-inverter) [ES](#avx-cambiador-de-tamaño-de-imagen-e-inversor-de-color) [HU](avx-képátméretező-és-színinverter)
+## [EN](#avx-image-resizer-and-color-inverter) [ES](#avx-cambiador-de-tamaño-de-imagen-e-inversor-de-color) [HU](#avx-képátméretező-és-színinverter)
 # AVX Image Resizer and Color Inverter
 This simple C program reads a BMP image, resizes it to a new dimension (600x600), and inverts its colors. The resized and color-inverted image is then saved as a new BMP file.
 
