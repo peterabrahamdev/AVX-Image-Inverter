@@ -20,8 +20,8 @@ gcc image_processor.c -o image_processor -mavx2
 4. Check the output in the space_new.bmp file.
 
 ## Requirements
-GCC compiler
-AVX2 support for processor
+- GCC compiler
+- AVX2 support for processor
 
 ## BMP Image Details
 - Input image: space_image.bmp
@@ -59,8 +59,8 @@ gcc image_processor.c -o image_processor -mavx2
 4. Verifica la salida en el archivo space_new.bmp.
 
 ## Requisitos
-Compilador GCC
-Soporte AVX2 para el procesador
+- Compilador GCC
+- Soporte AVX2 para el procesador
 
 ## Detalles de la Imagen BMP
 - Imagen de entrada: space_image.bmp
@@ -98,8 +98,8 @@ gcc image_processor.c -o image_processor -mavx2
 4. Ellenőrizd a kimenetet a space_new.bmp fájlban.
 
 ## Követelmények
-GCC fordító
-AVX2 támogatás a processzorban
+- GCC fordító
+- AVX2 támogatás a processzorban
 
 ## BMP kép részletei
 - Bemeneti kép: space_image.bmp
