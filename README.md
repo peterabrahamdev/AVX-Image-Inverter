@@ -7,7 +7,7 @@ For a detailed insight of how I made this program check out [this article](https
 ## Usage
 1. Clone the repository:  
 ```bash
-git clone https://github.com/your-username/avx-image-inverter.git
+git clone https://github.com/peterabrahamdev/AVX-Image-Inverter.git
 ```
 2. Compile the program:  
 ```bash
@@ -46,7 +46,7 @@ Para obtener una visión detallada de cómo hice este programa, consulta [este a
 ## Uso
 1. Clona el repositorio:  
 ```bash
-git clone https://github.com/your-username/avx-image-inverter.git
+git clone https://github.com/peterabrahamdev/AVX-Image-Inverter.git
 ```
 2. Compila el programa:  
 ```bash
@@ -85,7 +85,7 @@ A program elkészítésének részleteiért nézd meg [ezt a cikket](https://pet
 ## Használat
 1. Repository klónozása:
 ```bash
-git clone https://github.com/your-username/avx-image-inverter.git
+git clone https://github.com/peterabrahamdev/AVX-Image-Inverter.git
 ```
 2. Program lefordítása:
 ```bash
