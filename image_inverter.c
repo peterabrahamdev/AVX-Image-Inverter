@@ -41,7 +41,7 @@ void invertColors(char *outputData) {
 }
 
 int main() {
-    FILE *origin = fopen("/space_image.bmp", "rb");
+    FILE *origin = fopen("space_image.bmp", "rb");
     FILE *output = fopen("space_new.bmp", "wb+");
 
     char *header = (char*) malloc(HEADER_SIZE * sizeof(char));
